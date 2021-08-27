@@ -51,6 +51,7 @@ void listarINT(vector<INTEGER*>& vec) {
 	}
 }
 
+
 void listarCHAR(vector<CHAR*>& vec) {
 	for (int i = 0; i < vec.size(); i++) {
 		cout << i << ") ";
@@ -207,7 +208,6 @@ int main() {
 			}
 		}
 	}
-	
 	
 	return 0;
 }
