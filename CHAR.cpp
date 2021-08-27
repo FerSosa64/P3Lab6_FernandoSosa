@@ -14,9 +14,8 @@ void CHAR::operator!() {
 }
 
 string CHAR::operator+(CHAR c) {
-	string cadena;
-	string c1 = "" + this->caracter;
-	string c2 = "" + c.caracter;
-	cadena = c1 + c2;
+	string cadena = "";
+	cadena += this->caracter;
+	cadena += c.caracter;
 	return cadena;
 }

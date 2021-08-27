@@ -188,7 +188,7 @@ int main() {
 				cout << "Ingrese la posicion del segundo caracter: ";
 				cin >> c2;
 
-				cout << (*vectchar[c1]) + (*vectchar[c2]);
+				cout << "El resultado es: " << (*vectchar[c1]) + (*vectchar[c2]);
 
 				break;
 			}
@@ -201,6 +201,7 @@ int main() {
 				cout << "Cuantas veces se repetira?: ";
 				cin >> m;
 				
+				cout << "El resultado es: ";
 				(*vectstring[esc])* m;
 				break;
 			}
